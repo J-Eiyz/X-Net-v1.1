@@ -1,0 +1,29 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-gradient: linear-gradient(to bottom right, #000000, #121212, #000000);
+  --xblue: #00BFFF;
+}
+
+body {
+  @apply bg-black text-white min-h-screen;
+}
+
+.bg-gradient {
+  background-image: var(--bg-gradient);
+}
+
+.card {
+  @apply bg-gray-900 rounded-lg shadow-lg overflow-hidden;
+}
+
+.xblue-text {
+  color: var(--xblue);
+}
+
+.xblue-bg {
+  background-color: var(--xblue);
+}
+ 
